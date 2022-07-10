@@ -1,0 +1,5 @@
+jobs:
+  - name: backup
+    command: pg_dump -V
+    shell: /bin/sh
+    schedule: "*/1 * * * *"
